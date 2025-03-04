@@ -1,0 +1,45 @@
+# Virtual environments
+ytenv/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python compiled files
+*.log
+*.pid
+*.out
+*.bak
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment-specific files (e.g., configuration)
+config.local.yaml
+config.local.json
+
+# Optional: If you have specific data or media files you don’t want tracked
+data/*.csv
+media/*.mp3
